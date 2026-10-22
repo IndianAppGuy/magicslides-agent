@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "magicslides",
+  "version": "2.0.0",
+  "description": "Make designed presentations (PPTX, PDF, live link), docs, sheets and reels with MagicSlides. 161 templates; your agent writes, MagicSlides designs.",
+  "author": { "name": "IndianAppGuy", "email": "support@magicslides.app", "url": "https://github.com/IndianAppGuy" },
+  "homepage": "https://www.magicslides.app/mcp",
+  "repository": "https://github.com/IndianAppGuy/magicslides-agent",
+  "license": "MIT",
+  "logo": "./assets/logo.png",
+  "keywords": ["presentation", "slides", "ppt", "pptx", "pitch-deck", "powerpoint", "google-slides", "pdf-to-ppt"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MagicSlides",
+        "shortDescription": "AI presentation maker",
+        "longDescription": "Turn anything you write with your agent into a designed presentation: pick from 161 templates, fill the slides, and get a present link plus PPTX and PDF downloads. Also makes docs, spreadsheets, meeting notes and short animated reels.",
+        "developerName": "MagicSlides",
+        "category": "Productivity",
+        "websiteURL": "https://www.magicslides.app",
+        "supportURL": "https://www.magicslides.app/support",
+        "privacyPolicyURL": "https://www.magicslides.app/privacy-policy",
+        "termsOfServiceURL": "https://www.magicslides.app/terms-of-use",
+        "defaultPrompt": ["Make me a 7-slide pitch deck for my startup"],
+        "brandColor": "#E8603C",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "magicslides": {
+      "type": "http",
+      "url": "https://www.magicslides.app/api/mcp/mcp",
+      "headers": { "x-api-key": "${MAGICSLIDES_API_KEY:-}" }
+    }
+  }
+}

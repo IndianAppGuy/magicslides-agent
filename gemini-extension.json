@@ -1,0 +1,20 @@
+{
+  "name": "magicslides",
+  "version": "2.0.0",
+  "description": "Make designed presentations (PPTX, PDF, live link), docs, sheets and reels with MagicSlides. 161 templates; Gemini writes, MagicSlides designs.",
+  "mcpServers": {
+    "magicslides": {
+      "httpUrl": "https://www.magicslides.app/api/mcp/mcp",
+      "headers": { "x-api-key": "${MAGICSLIDES_API_KEY}" }
+    }
+  },
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "MagicSlides API key",
+      "description": "Free key from https://www.magicslides.app/dashboard/settings/api?ref=gemini-cli (leave empty to sign in with OAuth via /mcp auth magicslides)",
+      "envVar": "MAGICSLIDES_API_KEY",
+      "sensitive": true
+    }
+  ]
+}

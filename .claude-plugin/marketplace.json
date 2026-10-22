@@ -1,0 +1,15 @@
+{
+  "name": "magicslides",
+  "owner": { "name": "IndianAppGuy", "email": "support@magicslides.app" },
+  "metadata": { "description": "MagicSlides for Claude Code: presentations, docs, sheets and reels." },
+  "plugins": [
+    {
+      "name": "magicslides",
+      "source": "./",
+      "description": "Make designed presentations (PPTX, PDF, live link), docs, sheets and reels with MagicSlides.",
+      "version": "2.0.0",
+      "category": "productivity",
+      "homepage": "https://www.magicslides.app/mcp?ref=claude-code"
+    }
+  ]
+}
