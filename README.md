@@ -22,7 +22,7 @@ with OAuth don't need one.
 | **Any agent** ([skills.sh](https://skills.sh)) | `npx skills add IndianAppGuy/magicslides-agent` |
 | **Claude Code** | `/plugin marketplace add IndianAppGuy/magicslides-agent` then `/plugin install magicslides@magicslides` |
 | **Codex** | `npx skills add IndianAppGuy/magicslides-agent -a codex` · MCP: `codex mcp add magicslides --url https://www.magicslides.app/api/mcp/mcp` then `codex mcp login magicslides` |
-| **OpenClaw** | `openclaw skills install @theindianappguy/magicslides` |
+| **OpenClaw** | `openclaw skills install @theindianappguy/magicslides` (or `clawhub install @theindianappguy/magicslides`)` |
 | **Hermes Agent** | `hermes skills install IndianAppGuy/magicslides-agent/skills/magicslides` |
 | **Gemini CLI** | `gemini extensions install https://github.com/IndianAppGuy/magicslides-agent` |
 | **Cursor** | [![Add MagicSlides MCP to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=magicslides&config=eyJ1cmwiOiJodHRwczovL3d3dy5tYWdpY3NsaWRlcy5hcHAvYXBpL21jcC9tY3AifQ==) or `npx skills add IndianAppGuy/magicslides-agent -a cursor` |
