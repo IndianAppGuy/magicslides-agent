@@ -2,9 +2,28 @@
   "name": "magicslides",
   "version": "2.0.0",
   "description": "Make designed presentations (PPTX, PDF, live link), docs, sheets and reels with MagicSlides. 161 templates; your agent writes, MagicSlides designs.",
-  "author": { "name": "IndianAppGuy", "email": "support@magicslides.app", "url": "https://github.com/IndianAppGuy" },
+  "author": {
+    "name": "IndianAppGuy",
+    "email": "support@magicslides.app",
+    "url": "https://github.com/IndianAppGuy"
+  },
   "homepage": "https://www.magicslides.app/mcp?ref=claude-code",
   "repository": "https://github.com/IndianAppGuy/magicslides-agent",
   "license": "MIT",
-  "keywords": ["presentation", "slides", "ppt", "pptx", "pitch-deck", "powerpoint", "google-slides", "pdf-to-ppt"]
+  "keywords": [
+    "presentation",
+    "slides",
+    "ppt",
+    "pptx",
+    "pitch-deck",
+    "powerpoint",
+    "google-slides",
+    "pdf-to-ppt"
+  ],
+  "displayName": "MagicSlides",
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://www.magicslides.app/mcp",
+  "supportUrl": "https://www.magicslides.app/support",
+  "privacyPolicyUrl": "https://www.magicslides.app/privacy-policy",
+  "termsOfServiceUrl": "https://www.magicslides.app/terms-of-use"
 }
