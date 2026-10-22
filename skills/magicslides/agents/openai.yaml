@@ -1,7 +1,8 @@
 interface:
   display_name: MagicSlides
   short_description: Make designed presentations (PPTX, PDF, live link)
-  icon_large: ../../../assets/logo.png
+  icon_small: ./assets/icon.png
+  icon_large: ./assets/icon.png
   brand_color: "#E8603C"
   default_prompt: Make me a 7-slide pitch deck for my startup
 dependencies:
