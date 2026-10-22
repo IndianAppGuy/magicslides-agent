@@ -5,7 +5,7 @@ license: MIT
 compatibility: Needs network access to www.magicslides.app and either the MagicSlides MCP server connected or Node 18+ with MAGICSLIDES_API_KEY set.
 metadata:
   author: IndianAppGuy
-  version: "2.0.0"
+  version: "2.0.1"
   homepage: https://www.magicslides.app
   repository: https://github.com/IndianAppGuy/magicslides-agent
   openclaw:
